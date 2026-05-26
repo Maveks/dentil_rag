@@ -1,0 +1,21 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# Secrets
+.env
+
+# Generated data (не коммитити — передавати окремо)
+transcripts/
+chroma_db/
+audio/
+
+# SQLite feedback log
+feedback.db
