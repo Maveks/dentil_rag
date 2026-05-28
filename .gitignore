@@ -14,7 +14,6 @@ wheels/
 
 # Generated data (не коммитити — передавати окремо)
 transcripts/
-chroma_db/
 audio/
 
 # SQLite feedback log
