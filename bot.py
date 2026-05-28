@@ -98,7 +98,7 @@ def generate_answer(openai_client: OpenAI, question: str, context: str) -> str:
             },
         ],
         temperature=0.2,
-        max_tokens=800,
+        max_completion_tokens=800,
     )
     return response.choices[0].message.content.strip()
 
